@@ -25,8 +25,6 @@ client.on('ready',() => {
     console.log(`Ready! ${client.user.tag}!`);
     helpMessage(client,`${config.prefix}help`);
     rand(client,`${config.prefix}ran`);
-
-
 });
 
 
@@ -41,7 +39,7 @@ client.on('ready',() => {
 
 var con = mysql.createConnection({
     host: "localhost",
-    user: "puemmth",
+    user: "root",
     password: "xT54rNDN",
     database: "ku-cs"
 });
@@ -52,16 +50,6 @@ con.connect(function(err) {
 // INSERT INTO `discord-logs` (`id`, `username`, `dsjs_name`, `dsjs_groups`, `dsjs_channel`, `dljs_message`) VALUES (NULL, 'Tsusuba#0000', 'คุยกับหวานใจ', 'iloveyou', 'asdasd', 'asdasasdasdasdasdasdasdasd');
 client.on('messageCreate', message => {
     // console.log(message.author.bot);
-
-    // message.author.username isakai
-    // message.author.avatar anotherid
-    // message.author.bot
-
-    // message.guild.name nameserver
-    // message.content text
-
-    // message.guild.verificationLevel verificationLevel
-
     async function query() {
         const name = message.author.username;
         const anotherid = message.author.avatar;
