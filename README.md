@@ -8,7 +8,8 @@
     MYSQL_DATABASE=[database]
     BOT_TOKEN=[tokenbot]
 ```
-
+<table>
+   </tr>
     <td align="center">
         <a href="https://github.com/Goobles">
         <img src="https://avatars3.githubusercontent.com/u/8776771?v=4?s=100" width="100px;" alt=""/>
@@ -20,3 +21,5 @@
         <br />
         <a href="https://github.com/Eugeny/tabby/commits?author=Goobles" title="Code">💻</a>
     </td>
+   </tr>
+</table>
