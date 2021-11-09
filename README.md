@@ -8,18 +8,18 @@
     MYSQL_DATABASE=[database]
     BOT_TOKEN=[tokenbot]
 ```
-<table>
-   </tr>
+<table align="center">
+   <tr>
     <td align="center">
-        <a href="https://github.com/Goobles">
-        <img src="https://avatars3.githubusercontent.com/u/8776771?v=4?s=100" width="100px;" alt=""/>
+        <a href="https://github.com/PuemMTH">
+        <img src="https://avatars3.githubusercontent.com/u/59855164?s=4&v=100" width="100px;" alt=""/>
         <br />
         <sub>
             <b>Gobius Dolhain</b>
         </sub>
         </a>
         <br />
-        <a href="https://github.com/Eugeny/tabby/commits?author=Goobles" title="Code">💻</a>
+        <a href="https://github.com/PuemMTH/puemmth/commits?author=puemmth" title="Code">💻</a>
     </td>
    </tr>
 </table>
