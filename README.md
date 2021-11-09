@@ -12,7 +12,7 @@
    <tr>
     <td align="center">
         <a href="https://github.com/PuemMTH">
-        <img src="https://avatars3.githubusercontent.com/u/59855164?s=4&v=100" width="100px;" alt=""/>
+        <img src="https://avatars3.githubusercontent.com/u/59855164?s=300&v=100" width="100px;" alt=""/>
         <br />
         <sub>
             <b>Gobius Dolhain</b>
