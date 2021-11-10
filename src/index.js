@@ -16,6 +16,7 @@ const config = require('./data/config.json');
 const helpMessage = require('./commands/help-message');
 const rand = require('./commands/random');
 const database = require('./commands/database');
+const serverconnect = require('./commands/server-connect');
 
 client.on('ready',() => {
     console.log(`Ready! ${client.user.tag}!`);
@@ -24,6 +25,9 @@ client.on('ready',() => {
     helpMessage(client,`${config.prefix}help`);
     rand(client,`${config.prefix}ran`);
     database(client,`${config.prefix}db`);
+    serverconnect(client,`${config.prefix}ls-connect`);
+
+
 });
 
 // mysql connecction 
