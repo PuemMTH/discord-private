@@ -9,7 +9,7 @@
     BOT_TOKEN=[tokenbot]
 ```
 
-#Simple script
+# Simple script
 
 ```Javascript
 const { Client, Intents, MessageEmbed } = require('discord.js');
