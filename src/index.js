@@ -1,6 +1,6 @@
 const { Client, Intents, MessageEmbed } = require('discord.js');
-require('dotenv').config(); // Load .env file
 const { MYSQL_HOSTNAME, MYSQL_USERNAME, MYSQL_POSSWORD, MYSQL_DATABASE, BOT_TOKEN} = process.env; 
+require('dotenv').config(); // Load .env file
 var mysql = require('mysql');
 
 const client = new Client({
@@ -42,9 +42,9 @@ con.connect(function(err) {
     console.log("Database Connected!");
 });
 
-
 // client.on('messageCreate', message => {
 
 // });
 
 client.login(BOT_TOKEN);
+
