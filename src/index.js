@@ -26,8 +26,6 @@ client.on('ready',() => {
     rand(client,`${config.prefix}ran`);
     database(client,`${config.prefix}db`);
     serverconnect(client,`${config.prefix}ls-connect`);
-
-
 });
 
 // mysql connecction 

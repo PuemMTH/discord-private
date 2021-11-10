@@ -31,9 +31,6 @@ module.exports = (client, triggerText) => {
                     ]
              }
             );
-
-
-
         }
     });
 }
